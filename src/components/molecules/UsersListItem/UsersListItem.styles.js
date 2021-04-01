@@ -21,7 +21,14 @@ export const Average = styled.div`
   height: 40px;
   border-radius: 50px;
   border: none;
-  background-color: red;
+  background-color: ${(users) =>
+    users.children < 3
+      ? users.theme.colors.error
+      : users.children <= 4
+      ? users.theme.colors.warning
+      : users.children > 4
+      ? users.theme.colors.success
+      : ''};
   color: ${({ theme }) => theme.colors.white};
   font-size: ${({ theme }) => theme.fontSize.s};
   font-weight: bold;

@@ -12,17 +12,17 @@ export const users = [
   {
     name: 'Patrycja Gonciarz',
     attendance: '45%',
-    average: '4,3',
+    average: '4.3',
   },
   {
     name: 'Olga Hahn',
     attendance: '39%',
-    average: '2.3',
+    average: '4.8',
   },
   {
     name: 'Paweł Andrzejewski',
     attendance: '39%',
-    average: '2.3',
+    average: '1.3',
   },
   {
     name: 'Szymon Knuth',
